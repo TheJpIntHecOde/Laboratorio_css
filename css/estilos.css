@@ -1,0 +1,86 @@
+#Aplicadobject
+*{
+ margin: 10;
+ padding: 0;
+ box-sizing: border-box;
+}
+/*estilos generales de la página*/
+body
+{font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(39, 37, 37);
+    color: beige;
+}
+/*Definir el encabezado*/
+header{
+    background-color: rgb(39, 185, 136);
+    padding: 20px;
+    text-align: center;
+}
+/*Estilos del logo*/
+.logo{
+    widht: 100px;
+}
+/*Estilos del navegador*/
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+/*Estilos de los items de la lista */
+nav ul li{
+    margin: 0 15px;
+}
+/*Estilos de los items de la lista */
+nav ul li a{
+    color:beige;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color:rgb(41, 40, 40);
+}
+/*Estilos al área principal*/
+main{
+    padding: 30px;
+    text-align: center;
+}
+/*Estilos a la sección*/
+section{ 
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: rgb(109, 103, 103);
+    border-radius: 10px;
+    box-shadow:0px 4px 8px rgb(39, 185, 136);
+}
+/*Pie de página*/
+footer{
+    background-color:rgb(48, 47, 47);
+    color: beige;
+    padding:20px;
+    margin-top: 20px;
+}
+/*Estilos de imágen*/
+img{
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+/*Estilos de las tajetas de servicios*/
+.tarjeta{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap; 
+    margin-top: 20px;
+}
+/*Estilos a cada tarjeta*/
+.tarjeta{
+    background-color:rgb(66, 66, 66);
+    padding: 20px;
+    border: 5px solid beige);
+    border-radius: 10px;
+    width: 30%;
+    margin: 10px;
+}
