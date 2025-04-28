@@ -69,7 +69,7 @@ img{
     border-radius: 8px;
 }
 /*Estilos de las tajetas de servicios*/
-.tarjeta{
+.tarjetas{
     display: flex;
     justify-content:space-around;
     flex-wrap: wrap; 
@@ -83,4 +83,24 @@ img{
     border-radius: 10px;
     width: 30%;
     margin: 10px;
+}
+/*Diseño responsivo*/
+@media (max-width: 768px){
+    /*Cambiar orientación a columnas del menú*/
+    nav ul{
+        flex-direction. column;
+    }
+    /*Ajustar los márgenes superiores entre cada menú*/
+    nav ul li{
+        margin:10px 0;
+    }
+    /*Colocando tarjetas una de bajo de otra*/
+    .tarjetas{
+        flex-direction: column;
+        align-items: center;
+    }
+    /*Cada tarjeta ocupa el 80% del espacio disponible*/
+    .tarjeta{
+        widht: 80%;
+    }
 }
